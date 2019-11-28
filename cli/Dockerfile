@@ -1,5 +1,5 @@
-FROM debian:8.7
-MAINTAINER Arachnys <techteam@arachnys.com>
+FROM debian:8
+LABEL maintainer="Fabien Udriot <fabien.udriot@visol.ch>"
 
 RUN echo 'deb http://httpredir.debian.org/debian/ stable main contrib non-free' >> /etc/apt/sources.list
 

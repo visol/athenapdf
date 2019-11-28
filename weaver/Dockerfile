@@ -1,5 +1,5 @@
-FROM arachnysdocker/athenapdf
-MAINTAINER Arachnys <techteam@arachnys.com>
+FROM fab1en/athenapdf
+LABEL maintainer="Fabien Udriot <fabien.udriot@visol.ch>"
 
 ENV GIN_MODE release
 
